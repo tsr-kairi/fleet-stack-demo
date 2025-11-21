@@ -2,7 +2,7 @@
 
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { revenueData } from '@/lib/dummy-data';
+import { revenueData } from '@/lib/dummy-data/dashboard';
 
 export function RevenueChart() {
   return (
